@@ -25,4 +25,7 @@ else if(
 else if (cond == 0 ){
     console.clear();
     console.log (`Trule Mero Trule Tina`);
-}}
+}
+
+
+}

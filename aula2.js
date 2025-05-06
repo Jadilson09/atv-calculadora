@@ -2,10 +2,10 @@ var teclado = require("prompt-sync")();
 var cond = 0;
 do {
     console.log("");
-    console.log("Digite o numero desejado");
+    console.log("Digite o n\u00FAmero desejado");
     console.log("1  +");
     console.log("2  -");
-    console.log("3  |");
+    console.log("3  /");
     console.log("4  *");
     console.log("0  Sair");
     cond = parseInt(teclado("Digite sua op\u00E7\u00E3o: "));
@@ -19,7 +19,7 @@ do {
         console.log("-");
     }
     else if (cond == 3) {
-        console.log("|");
+        console.log("/");
     }
     else if (cond == 4) {
         console.log("*");
@@ -28,3 +28,4 @@ do {
         console.log("Fim de programa");
     }
 } while (cond != 0);
+console.log("Resultado ".concat(cond));
